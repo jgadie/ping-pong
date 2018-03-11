@@ -23,8 +23,8 @@ $(document).ready(function() {
           multiples.push(i);
         };
 
-    $('#result').show();
-    
+    $("#result").show();
+
 //    commented out previous .text(multiples) and .show(multiples) to test .show(); with empty parentheses
 //    $('#result').show(multiples);
 //    $('#result').text(multiples);
