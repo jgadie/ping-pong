@@ -1,6 +1,13 @@
 //Business logic
+var pingpong = function(ping){
+  if ((ping / 3 === 0 && (pong / 5!== 0) && (year / 15 !=== 0)) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
-
+//user interface logic
 $(document).ready(function() {
   $("form#pingpong").submit(function(event) {
     event.preventDefault();
