@@ -18,12 +18,16 @@ $(document).ready(function() {
 
     var multiples = [];
 
-      for (var i = number2; i <= number; i += number2) {
-        if (number % i === 0) {
+      for (var i = ping; i <= pong; i += pingpong) {
+        if (pingpong % i === 0) {
           multiples.push(i);
         };
 
-    $('#result').text(multiples);
+    $('#result').show();
+    
+//    commented out previous .text(multiples) and .show(multiples) to test .show(); with empty parentheses
+//    $('#result').show(multiples);
+//    $('#result').text(multiples);
 
   };
  });
