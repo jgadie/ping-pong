@@ -1,6 +1,6 @@
 //Business logic
 var pingpong = function(ping){
-  if ((ping / 3 === 0 && (pong / 5!== 0) && (year / 15 !=== 0)) {
+  if ((ping / 3 === 0 && (pong / 5!== 0) && (year / 15 !== 0)) {
     return true;
   } else {
     return false;
@@ -24,8 +24,6 @@ $(document).ready(function() {
         };
 
     $('#result').text(multiples);
-
-
 
   };
  });
