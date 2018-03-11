@@ -8,6 +8,22 @@
 ```
 _{This is a practice game of Ping Pong that I am creating for a class assignment.  Ping Pong is also known as Table Tennis.  This is _kinda_like that. In this game, if you enter a number divisible by 3, the page should generate the result, "ping".  If you enter a number divisible by 5, the page should generate the result, "pong".  And, if you enter a number divisible by 15, the page should generate the result, "Ping Pong!".  How fun is that?  Enjoy ;)}_
 ```
+## Specifications
+```
+Enter a number divisible by 3:
+* Example Input: 3
+* Example Output: [3, 6, 9]
+
+Enter a number divisible by 5:
+* Example Input: 5
+* Example Output: [5, 10, 15]
+
+Enter a number divisible by 15:
+* Example Input: 15
+* Example Output: [15, 30, 45]
+
+```
+
 ## Setup/Installation Requirements
 ```
 * Clone ping-pong repository from Jasmine's Github
