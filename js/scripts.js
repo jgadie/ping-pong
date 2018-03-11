@@ -2,11 +2,13 @@
 
 
 $(document).ready(function() {
-  $("form#countup").submit(function(event) {
+  $("form#pingpong").submit(function(event) {
     event.preventDefault();
     debugger;
-    var number = parseInt($("input#number").val());
-    var number2 = parseInt($("input#number2").val());
+    var ping = parseInt($("input#ping").val());
+    var pong = parseInt($("input#pong").val());
+    var pingpong = parseInt($("input#pingpong").val());
+
     var multiples = [];
 
       for (var i = number2; i <= number; i += number2) {
