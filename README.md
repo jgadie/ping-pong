@@ -34,7 +34,7 @@ _{If you are not able to open the ping-pong.html in the ping-pong folder, right 
 ```
 ## Known Bugs
 ```
-_{.................................}_
+_{Basically, the entire webpage is a bug.  The code I have so far runs in the console without an error.  However, the page does not run as the Specifications say it should.  The only way to generate ping, Pong, or Ping-Pong, is to enter all the values at the same time and press the submit button.  Otherwise, the script will not run.  I am currently stuck on this assignment since I am unable to make the page respond as the Specifications have outlined.}_
 ```
 ## Support and contact details
 ```
